@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Jayden Blair
+# DATE: 3/1/26
+# BRIEF DESCRIPTION:  Give a compliment to the user if they want one. The user will be asked if they want a compliment. If they say yes, they will receive a compliment.
 
 
 
@@ -15,8 +15,10 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
-
+response = input("Would you like a compliment? ")
+if response == "yes":
+    print("You have wonderful eyes.")
+print("Thank you for playing.")
 
 
 
@@ -67,12 +69,12 @@ Thank you for playing.
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
 
-
+It was a 3. It was pretty easy, but I had to think about how to make the code work.
 
 
 2. What was the hardest part of this lab?
 
-
+Making sure the users response was case sensitive.
 
 
 
